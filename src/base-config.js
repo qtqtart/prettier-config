@@ -5,10 +5,10 @@ const baseConfig = {
   singleQuote: true,
   useTabs: false,
   tabWidth: 2,
-  trailingComma: "none",
-  arrowParens: "always",
+  trailingComma: 'none',
+  arrowParens: 'always',
   printWidth: 80,
-  endOfLine: "lf",
+  endOfLine: 'lf'
 };
 
 export default baseConfig;
