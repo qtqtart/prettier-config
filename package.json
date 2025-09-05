@@ -1,25 +1,38 @@
 {
   "name": "@qtqtart/prettier-config",
-  "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
+  "description": "prettier config",
+  "license": "MIT",
   "version": "1.0.2",
+  "private": false,
   "type": "module",
+  "keywords": [
+    "prettier"
+  ],
   "exports": {
     ".": "./src/base-config.js"
+  },
+  "author": {
+    "name": "Merkulov Artem",
+    "url": "https://github.com/qtqtart"
+  },
+  "homepage": "https://github.com/qtqtart/prettier-config",
+  "repository": {
+    "url": "https://github.com/qtqtart/prettier-config"
   },
   "scripts": {
     "format": "prettier --write .",
     "release": "release-it"
   },
   "peerDependencies": {
-    "prettier": "3.6.2"
+    "prettier": "^3"
   },
   "dependencies": {
     "prettier": "3.6.2"
   },
   "devDependencies": {
     "release-it": "19.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
